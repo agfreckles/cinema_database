@@ -7,7 +7,7 @@ con = None
 try:
     con = psycopg2.connect(database='movie_database',
                            user='postgres',
-                           password='agfreckles')
+                           password='************')
     cur = con.cursor()
 
     st = 'what do want to do ? \ncreate(c), delete(d) or view(v) an item?: '
